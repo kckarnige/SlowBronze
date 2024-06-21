@@ -1,33 +1,32 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "slowbronze",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Slow your Roll!: Bronze Compat",
+	"description": "This is a compatibility mod for the 'Bronze' mod to make in compatible with 'Slow Your Roll!'",
 	"authors": [
-		"Me!"
+		"KayoticCarnige"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/kckarnige/SlowBronze"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"license": "MIT",
+	"icon": "assets/slowbronze/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.kckarnige.slowbronze.SlowBronze"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.kckarnige.slowbronze.SlowBronzeClient"
+		],
+		"fabric-datagen": [
+			"com.kckarnige.slowbronze.SlowBronzeDataGenerator"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
-		{
-			"config": "modid.client.mixins.json",
-			"environment": "client"
-		}
+		"slowbronze.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
