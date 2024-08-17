@@ -2,8 +2,8 @@
 	"schemaVersion": 1,
 	"id": "slowbronze",
 	"version": "${version}",
-	"name": "Bronze: Slow Your Roll Compat",
-	"description": "This is a compatibility mod for the 'Bronze' mod to make in compatible with 'Slow Your Roll'",
+	"name": "Slow Your Bronze",
+	"description": "A compatibility mod to make the 'Bronze' mod compatible with 'Slow Your Roll'.",
 	"authors": [
 		"KayoticCarnige"
 	],
