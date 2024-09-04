@@ -24,7 +24,7 @@
 		"minecraft": "~1.21",
 		"java": ">=21",
 		"fabric-api": "*",
-		"bronze": ">=1.0.5",
-		"slowyourroll": ">=1.21-1.0.4"
+		"bronze": ">=1.0.10",
+		"slowyourroll": ">=1.21-1.0.5"
 	}
 }

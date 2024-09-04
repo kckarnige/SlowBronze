@@ -13,9 +13,11 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item BRONZE_PLATE = registerItem("bronze_plate", new Item(new Item.Settings()));
+    public static final Item TIN_NUGGET = registerItem("tin_nugget", new Item(new Item.Settings()));
 
     private static void addItemToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(BRONZE_PLATE);
+        entries.add(TIN_NUGGET);
     }
 
     private static Item registerItem (String name, Item item) {
