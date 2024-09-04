@@ -23,7 +23,7 @@ public class ModItems {
     }
 
     public static void registerModItems () {
-        SlowBronze.LOGGER.info("[Slow Your Bronze] Registering Bronze Plate item...");
+        SlowBronze.LOGGER.info("[Slow Your Bronze] Casting the plates..");
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemToIngredientItemGroup);
     }
